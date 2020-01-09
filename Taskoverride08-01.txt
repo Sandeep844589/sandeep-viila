@@ -1,0 +1,24 @@
+/*To check private is overided or not*/
+package day2;
+
+public class Ovride {
+	private void over()
+	{
+		System.out.println("I am Overriding it");
+	}
+
+}
+public class Ovride2 extends Ovride{
+	public void over()
+	{
+		System.out.println("I am overriding it again");
+	}
+
+	public static void main(String[] args) {
+		Ovride2 obj4=new Ovride2();
+		obj4.over();
+		// TODO Auto-generated method stub
+
+	}
+
+}
