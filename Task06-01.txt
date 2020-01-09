@@ -1,0 +1,34 @@
+Signed variables-such as signed integers will allow you to represent numbers both in the positive and negative ranges.
+
+Unsigned variables-such as unsigned integers, will only allow you to represent numbers in the positive.
+
+Unsigned and signed variables of the same type (such as int and byte) both have the same range (range of 65,536 and 256 numbers, respectively),
+but unsigned can represent a larger magnitude number than the corresponding signed variable.
+
+For example, an unsigned byte can represent values from 0 to 255, while signed byte can represent -128 to 127. (Adding 128 + 127 = 255)[1]
+
+
+To Print Hello when 'y' or 'Y' are given as input:
+class check
+{
+public static void main(String args[])
+    {
+      char ar='y';
+       while(ar='y'|| ar='Y')
+         {
+           System.out.println("Hello");
+         }
+    }
+}
+
+Greatest of two numbers without > or < symbols:
+
+class Greatest
+{
+public static void main(String args[])
+     {
+       int x=34, y=27;
+       System.out.println( ((x + y) +(x - y)) / 2);
+     }
+}
+
