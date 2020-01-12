@@ -1,0 +1,47 @@
+/*String matches() function*/
+package day4;
+
+public class StringMatch1 {
+
+	public static void main(String[] args) {
+		String s1="The Lion is king of Jungle";
+		System.out.println(s1.matches("(.*)Lion(.*)"));
+		// TODO Auto-generated method stub
+
+	}
+
+}
+/* For replacing desired substring of a string*/ 
+package day4;
+
+public class Stringopr1 {
+
+	public static void main(String[] args) {
+		String sc="My name is khan";
+		
+		System.out.println("The String Before replacing"+" "+sc);
+		String search="khan";
+		String r="sandeep";
+		String s1=sc.replaceAll(search, r);
+		System.out.println("The string after replacing"+" "+s1);
+		// TODO Auto-generated method stub
+
+	}
+
+}
+/*String intern() method*/
+package day4;
+
+public class Internmethod {
+
+	public static void main(String[] args) {
+		String s1=new String("Legend");
+		String s2="Legend";
+		String s3=s1.intern();
+		System.out.println(s1==s2);
+		System.out.println(s2==s3);
+		// TODO Auto-generated method stub
+
+	}
+
+}
