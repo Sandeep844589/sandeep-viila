@@ -7,11 +7,11 @@ public class Collections {
 		
 		Scanner scan=new Scanner(System.in);
 		ArrayList<String> al=new ArrayList();
-		 al.add("Geeks For Geeks"); 
+		 al.add("Hii"); 
 	        al.add("Friends"); 
-	        al.add("Dear"); 
-	        al.add("Is"); 
-	        al.add("Superb"); 
+	        al.add("How"); 
+	        al.add("are"); 
+	        al.add("you"); 
 		 Collections.sort(al); 
 		  
 	        // Let us print the sorted list 
