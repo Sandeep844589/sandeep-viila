@@ -1,0 +1,25 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { DisplayCartItemsComponent } from './display-cart-items.component';
+
+describe('DisplayCartItemsComponent', () => {
+  let component: DisplayCartItemsComponent;
+  let fixture: ComponentFixture<DisplayCartItemsComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ DisplayCartItemsComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(DisplayCartItemsComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
