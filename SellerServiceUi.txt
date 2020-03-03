@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+.container-sm
+{
+text-align="center";
+}
+.page
+{
+color:blue;
+border-radius:25px
+padding:10px;
+border:2px solid red;
+}
+</style>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body background-color="yellow">
+<div class="container">
+<div class="card-header">
+   <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link " href="file:///E:/mYhtml/Login.html">Login</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active"  href="file:///E:/mYhtml/Register.html">Register</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="file:///E:/mYhtml/Gallary.html">Gallary</a>
+    </li>
+    </ul>
+</div>
+<div class="card-body">
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+<div class="form-group">
+      <label for="UserName">Username:</label>
+      <input type="Username" class="form-control" id="Username" placeholder="Enter Username" name="Username">
+    </div>
+<div class="form-group">
+      <label for="PhoneNumber">PhoneNumber:</label>
+      <input type="PhoneNumber" class="form-control" id="PhoneNumber" placeholder="Enter PhoneNumber" name="PhoneNumber">
+    </div>
+<div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Create password" name="pswd">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+    </div>
+
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> Remember me
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Register</button>
+  </form>
+</div>
+<div class="card-footer text-center">
+<h1> Headset Shop </h1>
+<a href="file:///E:/mYhtml/Gallary.html">Company Description</a>
+</div>
+</div>
+<div class="page">
+<p>This is My webPage<p>
+</div>
+</body>
+</html>
